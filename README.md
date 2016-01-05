@@ -8,7 +8,6 @@ Installation
 ---
 1. Download the zip from this repository, unzip, and put the focalpointfield folder in your Craft plugin folder.
 2. Enable the plugin in Craft (Settings > Plugins)
-3. Optionally, you can configure the default value the field should return, in the plugin's settings.
 
 The Focal Point fieldtype is now available when you create a new field. 
 
