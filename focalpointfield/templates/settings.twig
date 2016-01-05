@@ -1,0 +1,10 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+        label: 'Default focal point' | t,
+        instructions: 'If no value has yet been set, this value will be returned to the template. Example: "50% 50%"' | t,
+        id: 'defaultFocalPoint',
+        name: 'defaultFocalPoint',
+        value: settings.defaultFocalPoint,
+        size: 20,
+}) }}
