@@ -2,6 +2,8 @@ Focal Point Field for Craft
 ===
 A field type that let's you set the focal point of an image. 
 
+_This fieldtype was made to be used together with [Imager](https://github.com/aelvan/Imager-Craft) and its `position` transform parameter._ 
+
 Installation
 ---
 1. Download the zip from this repository, unzip, and put the focalpointfield folder in your Craft plugin folder.
@@ -18,9 +20,6 @@ the field will show the image. Click on the point where you want the focal point
 ![Focal Point Field example](https://raw.githubusercontent.com/aelvan/FocalPointField-Craft/master/screenshots/focalpoint.png)
  
 The value that is saved and returned by the field is the percentage offset from left/top, for instance `50% 50%`.
-
-You can use this value in any way you want, but it was made to be used together with [Imager](https://github.com/aelvan/Imager-Craft) and its position transform parameter.    
-
 
 Price, license and support
 ---
