@@ -1,5 +1,5 @@
 {% if elementType=='asset' %}
-	{% if element.getExtension() in ['jpg', 'jpeg', 'gif', 'svg', 'png'] %}
+	{% if element.getExtension()|lower in ['jpg', 'jpeg', 'gif', 'svg', 'png'] %}
 	<div class="focalpointfield-wrapper">
 		<img src="{{ element.getUrl() }}" title="{{ 'Click image to set focal point' | t }}" draggable="false">
 	</div>
