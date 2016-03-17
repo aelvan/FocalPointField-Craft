@@ -66,7 +66,10 @@
 			
 			var percentX = Math.round((posX/imageWidth)*100);
 			var percentY = Math.round((posY/imageHeight)*100);
-			
+
+			percentX = Math.max(0, Math.min(percentX, 100));
+			percentY = Math.max(0, Math.min(percentY, 100));
+
 			setValue(percentX, percentY);
 		}
 
