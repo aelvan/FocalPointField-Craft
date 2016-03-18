@@ -63,10 +63,14 @@
 			var imageHeight = $focalpointWrapper.outerHeight();
 			var posX = pageX-parentOffset.left;
 			var posY = pageY-parentOffset.top;
-			
-			var percentX = Math.round((posX/imageWidth)*100);
-			var percentY = Math.round((posY/imageHeight)*100);
-			
+
+			var precision = Math.pow(10, 2);
+			var percentX = Math.round((posX/imageWidth)*100*precision) / precision;
+			var percentY = Math.round((posY/imageHeight)*100*precision) / precision;
+
+			percentX = Math.max(0, Math.min(percentX, 100));
+			percentY = Math.max(0, Math.min(percentY, 100));
+
 			setValue(percentX, percentY);
 		}
 
