@@ -29,5 +29,11 @@ here on github if you have one, and I'll see what I can do. :)
 
 Changelog
 ---
+### Version 1.0.1
+ - Preview image is now resized to increase performance.
+ - Fixed issue where image was oversized. (benjamminf)
+ - Improved handling and precision of focal point dragging. (benjamminf)
+ - Source extension is converted to lower before doing conditional to avoid uppercase extensions to fail. (wbrowar)
+ 
 ### Version 1.0.0
  - Initial release.
