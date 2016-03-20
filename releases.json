@@ -2,7 +2,7 @@
     {
         "version": "1.0.1",
         "downloadUrl": "https://github.com/aelvan/FocalPointField-Craft/archive/master.zip",
-        "date": "2010-03-20T18:48:00+02:00",
+        "date": "2016-03-20T18:48:00+02:00",
         "notes": [
             "[Improved] Preview image is now resized to increase performance.",
             "[Fixed] Fixed issue where image was oversized. (benjamminf)",
@@ -14,7 +14,7 @@
     {
         "version": "1.0.0",
         "downloadUrl": "https://github.com/aelvan/FocalPointField-Craft/archive/master.zip",
-        "date": "2010-01-05T21:30:00+02:00",
+        "date": "2016-01-05T21:30:00+02:00",
         "notes": [
             "[Added] Initial release."
         ]
