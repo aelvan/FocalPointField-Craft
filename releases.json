@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.0.2",
+        "downloadUrl": "https://github.com/aelvan/FocalPointField-Craft/archive/master.zip",
+        "date": "2016-12-20T22:57:00+02:00",
+        "notes": [
+            "[Fixed] Fixed bug where the image would be smaller than the wrapper if the element modal was very wide. (by @davidhellmann)"
+        ]
+    },
+    {
         "version": "1.0.1",
         "downloadUrl": "https://github.com/aelvan/FocalPointField-Craft/archive/master.zip",
         "date": "2016-03-20T18:48:00+02:00",
