@@ -15,7 +15,7 @@ namespace Craft;
 class FocalPointFieldPlugin extends BasePlugin
 {
     protected $_version = '1.0.2',
-      $_schemaVersion = null,
+      $_schemaVersion = '1.0.0',
       $_name = 'Focal Point Field',
       $_url = 'https://github.com/aelvan/FocalPointField-Craft',
       $_releaseFeedUrl = 'https://raw.githubusercontent.com/aelvan/FocalPointField-Craft/master/releases.json',
