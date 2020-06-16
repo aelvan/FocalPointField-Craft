@@ -1,0 +1,41 @@
+{
+    "name": "aelvan/focal-point-field",
+    "description": "A utility plugin for migrating the Craft 2 focal point field to the native Craft 3 functionality.",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "focal point field"
+    ],
+    "support": {
+        "docs": "https://github.com/aelvan/focal-point-field/blob/master/README.md",
+        "issues": "https://github.com/aelvan/focal-point-field/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Elvan",
+            "homepage": "http://www.vaersaagod.no"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "aelvan\\focalpointfield\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Focal Point Field",
+        "handle": "focal-point-field",
+        "schemaVersion": "2.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/aelvan/focal-point-field/master/CHANGELOG.md",
+        "class": "aelvan\\focalpointfield\\FocalPointFieldPlugin"
+    }
+}

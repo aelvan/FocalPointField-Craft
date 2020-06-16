@@ -1,0 +1,42 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Focal Point Field plugin for Craft CMS
+ *
+ * FocalPointFieldUtility Utility Content
+ *
+ * @author    André Elvan
+ * @copyright Copyright (c) 2019 André Elvan
+ * @link      http://www.vaersaagod.no
+ * @package   FocalPointField
+ * @since     2.0.0
+ */
+#}
+
+<style>
+    .focal-point-utility-button {
+        font-size: 14px;
+    }
+</style>
+
+<h1>Focal point migration utility</h1>
+
+<p>This is a utility for migrating focal points from the Craft 2 Focal Point Field, to 
+the new native functionality.</p>
+
+
+{% if fieldCount == 0 %}
+    <p>You have no focal points field, so you should uninstall this plugin.</p>
+{% elseif unmigratedCount == 0 %}
+    <p>You have no unmigrated focal points. You can now uninstall this plugin, and remove the old field.</p>
+{% elseif fieldCount > 1 %}
+    <p>There appears to be more than one focal point field, this utility only supports one.</p>
+{% else %}
+    <p>You have <strong>{{ fieldCount }} focal point field</strong>, and currently <strong>{{ unmigratedCount }} assets</strong> with focal points that have not been migrated.</p>
+    <p>
+        <button class="btn submit focal-point-utility-button">Migrate</button>
+        <span class="spinner focal-point-utility-spinner" style="display: none;"></span>
+    </p>
+{% endif %}
+
+<p class="focal-point-utility-response"></p>

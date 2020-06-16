@@ -1,0 +1,9 @@
+{% import "_includes/forms" as forms %}
+
+{% set config = {
+    id: name,
+    name: name,
+    value: value,
+} %}
+
+{{ forms.text(config) }}
